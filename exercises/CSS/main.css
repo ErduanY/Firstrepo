@@ -1,0 +1,46 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightcyan;
+}
+
+h1 {
+    font-size: 300%;
+    border:2px solid black;
+    border-radius: 12px;
+    text-align: center;
+    margin: 10px 20px 5px 15px;
+
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+    color: rebeccapurple;
+}
+
+p {
+    border: 2px solid black;
+    font-size: 24px;
+    width: 40ch;
+}
+
+.parablue {
+    color: blue;
+}
+
+.parared {
+    color: red;
+}
+
+.parablue:hover {
+    color: green;
+}
+
+.bild {
+    display: block;
+    margin: auto;
+}
