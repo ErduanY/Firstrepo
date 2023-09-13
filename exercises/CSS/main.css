@@ -1,30 +1,35 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Press+Start+2P&display=swap');
 body {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: lightcyan;
+    background: linear-gradient(lightblue, lightgreen)
 }
 
 h1 {
     font-size: 300%;
-    border:2px solid black;
-    border-radius: 12px;
     text-align: center;
     margin: 10px 20px 5px 15px;
+    font-family: "Black Ops one", Arial, Helvetica, sans-serif;
 
 }
 
 h2 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Black ops one", Tahoma, sans-serif;
     font-size: 2rem;
-    color: rebeccapurple;
+    color: black;
 }
 
 p {
-    border: 2px solid black;
+    border: 2px outset;
+    border-color:gold;
+    border-width: 5px;
+    border-radius: 10px;
+    padding: 10px;
     font-size: 24px;
+    font-family: "consolas", sans-serif;
+    font-weight: bold;
     width: 40ch;
 }
 
